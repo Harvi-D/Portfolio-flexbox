@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="origin">
     <title>Dylan Harville | Portfolio</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" rel="stylesheet" type="text/css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -15,7 +16,7 @@
           <nav>
               <ul id="menu">
                   <li><a href="#about">About</a></li>
-                  <li><a href="projects">Projects</a></li>
+                  <li><a href="#projects">Projects</a></li>
                   <li><a href="#contact">Contact</a></li>
               </ul>
           </nav>
@@ -60,6 +61,72 @@
                 </div>
             </div>
         </section>
-
+        <section>
+            <h2 id="projects">Projects</h2>
+            <div class="group">
+                <div class="item">
+                    <a href="https://harvi-d.github.io/Decoder-Ring/" target="_blank">
+                        <img src="images/Decoder-ring.png" alt="decoder ring project" class="decoder">
+                    </a>
+                    <h3>Decoder Ring</h3>
+                    <p>A tested use of several functions for encoding and decoding strings. It is meant to demonstrate 
+                    a knowlege of unit testing with Chai and Mocha, as well as an understanding of Node module exports, and a  
+                    working knowlege complex algorithms.</p>
+                    <hr>
+                    <p>JavaScript</p>
+                    <p>Mocha (testing framework)</p>
+                    <p>Chai (assertion library)</p>
+                    <hr>
+                    <p><a href="https://github.com/Harvi-D/Decoder-Ring" target="_blank">GitHub</a></p>
+                </div>
+                <div class="item">
+                    <a href="https://harvi-d.github.io/Local-Library/" target="_blank">
+                    <img src="images/Local-library.png" alt="local library project" class="library">
+                    </a>
+                    <h3>Local Library</h3>
+                    <p>A local library data manager. Presents information on:
+                    general, book-specific, and user-specific data. Showcases advanced JavaScript 
+                    techniques and data organization.</p>
+                    <hr>
+                    <p>JavaScript</p>
+                    <p>Higher-Order Functions</p>
+                    <p>Data Manipulation</p>
+                    <hr>
+                    <p><a href="https://github.com/Harvi-D/Local-Library" target="_blank">GitHub</a></p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 id="contact">Contact</h2>
+            <div class="group">
+                <div class="item">
+                    <a href="mailto:dr.dyloh@email.com" target="_blank" style="font-size: 20px;">Dr.Dyloh@gmail.com</a>
+                </div>
+                <div class="item">
+                    <a href="https://www.linkedin.com/in/dylan-harville-602308207/" target="_blank" style="font-size: 20px;">Linkedin</a>
+                </div>
+                <div class="item">
+                    <a href="https://github.com/Harvi-D" target="_blank" style="font-size: 20px;">GitHub</a>
+                </div>
+            </div>
+            <div class="group">
+                <div class="item">
+                    <form action="https://formspree.io/f/mleaejpq" method="POST">
+                        <label for="user-name">Name:</label>
+                        <input id="user-name" type="text" name="name">
+              
+                        <label for="user-email">Email:</label>
+                        <input id="user-email" type="text" name="email">
+              
+                        <label for="user-message">Message:</label>
+                        <textarea id="user-message" name="message"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
       </main>
+    <footer>
+        <p>© Dylan Harville</p>
+    </footer>
   </body>

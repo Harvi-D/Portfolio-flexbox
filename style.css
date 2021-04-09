@@ -84,6 +84,12 @@ h2 {
     font-weight: 600;
     color: #f4ebd9;
 }
+h3 {
+    font-size: 30px;
+    font-family: Lora, serif;
+    font-weight: 600;
+    color: #f4ebd9;
+}
 p {
    font-size: 25px;
    font-family: Lora, serif;
@@ -98,6 +104,9 @@ main a:hover {
 main a {
     color: #986c6a;
 }
+.social {
+    flex: 2;
+}
 
 /*desktop*/
 @media all and (min-width: 700px) {
@@ -108,4 +117,30 @@ main a {
     p{
         line-height: 50px;
     }
+}
+
+/*projects*/
+.decoder .library {
+    border-radius: 80px;
+}
+hr {
+    background-color: #f4ebd9;
+}
+/*form*/
+form label {
+    display: block;
+}
+form textarea,
+form input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+form textarea {
+    height: 120px;
+}
+footer {
+    background-color: #160f29;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 10px;
 }
