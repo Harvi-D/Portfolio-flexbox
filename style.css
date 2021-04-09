@@ -106,7 +106,9 @@ main a:hover {
     text-decoration: underline;
 }
 main a {
-    color: #9b5d59;
+    color: #986c6a;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px #160f29;
 }
 
 
