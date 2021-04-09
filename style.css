@@ -84,19 +84,19 @@ img.my-photo {
 }
 h2 {
     font-size: 30px;
-    font-family: Lora, serif;
+    font-family: Montserrat, serif;
     font-weight: 600;
     color: #f4ebd9;
 }
 h3 {
     font-size: 30px;
-    font-family: Lora, serif;
+    font-family: Montserrat, serif;
     font-weight: 600;
     color: #f4ebd9;
 }
 p {
    font-size: 25px;
-   font-family: Lora, serif;
+   font-family: Montserrat, serif;
    color: #f4ebd9; 
 }
 main a {
@@ -108,9 +108,7 @@ main a:hover {
 main a {
     color: #9b5d59;
 }
-.social {
-    flex: 2;
-}
+
 
 /*desktop*/
 @media all and (min-width: 700px) {
@@ -125,9 +123,10 @@ main a {
     }
     .item2 {
         padding-right: 20px;
+        font-family: Montserrat, serif;
     }
     p{
-        line-height: 50px;
+        line-height: 30px;
     }
     .item-double {
         flex-basis: 50%;
@@ -135,9 +134,7 @@ main a {
 }
 
 /*projects*/
-.decoder .library {
-    border-radius: 80px;
-}
+
 hr {
     background-color: #f4ebd9;
 }
@@ -145,11 +142,13 @@ hr {
 form label {
     display: block;
     color: #f4ebd9;
+    font-family: Montserrat, serif;
 }
 form textarea,
 form input {
     width: 100%;
     margin-bottom: 10px;
+    font-family: Montserrat, serif;
 }
 form textarea {
     height: 120px;
