@@ -59,10 +59,14 @@ main {
     padding: 20px 0;
 }
 section {
-    margin-bottom: 45px;
+    margin-bottom: 20px;
     padding: 10px;
 }
 .gorup {
+    display: flex;
+    flex-direction: column;
+}
+.group2{
     display: flex;
     flex-direction: column;
 }
@@ -102,7 +106,7 @@ main a:hover {
     text-decoration: underline;
 }
 main a {
-    color: #986c6a;
+    color: #9b5d59;
 }
 .social {
     flex: 2;
@@ -114,8 +118,19 @@ main a {
         display: flex;
         flex-direction: row;
     }
+    .group2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .item2 {
+        padding-right: 20px;
+    }
     p{
         line-height: 50px;
+    }
+    .item-double {
+        flex-basis: 50%;
     }
 }
 
@@ -129,6 +144,7 @@ hr {
 /*form*/
 form label {
     display: block;
+    color: #f4ebd9;
 }
 form textarea,
 form input {
