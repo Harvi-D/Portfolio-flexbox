@@ -133,12 +133,22 @@ main a {
     .item-double {
         flex-basis: 50%;
     }
+    .projects {
+        padding-right: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 }
 
 /*projects*/
 
 hr {
     background-color: #f4ebd9;
+}
+.projects {
+    display: flex;
+    flex-direction: column;
 }
 /*form*/
 form label {
