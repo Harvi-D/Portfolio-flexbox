@@ -165,6 +165,9 @@ form input {
 form textarea {
     height: 120px;
 }
+button {
+    font-family: Montserrat, serif;
+}
 footer {
     background-color: #160f29;
     text-align: center;
